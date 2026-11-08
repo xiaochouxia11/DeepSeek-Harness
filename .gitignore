@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+build/
+.next/
+out/
+coverage/
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 日志与临时文件
+*.log
+tmp/
+__pycache__/
+.venv/
